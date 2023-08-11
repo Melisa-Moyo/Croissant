@@ -1,0 +1,204 @@
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+    margin-left: -25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  #information-text {
+    width: 300px;
+    margin-left: 35px;
+  }
+  ul {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .primary-link,
+  .secondary-link,
+  .tertiary-link {
+    font-size: 20px;
+    color: #302a2a;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  #contact-section {
+    background-size: 10px;
+    width: 90%;
+  }
+
+  .contact-info {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .label-text {
+    display: none;
+  }
+
+  .email-link {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .contact-form {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: -24px;
+    width: 80%;
+  }
+  .social-media-list {
+    text-align: center;
+  }
+  .social-media-list li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .message-box {
+    margin-bottom: 28px;
+    margin-left: -50px;
+  }
+}
+
+h1,
+strong {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#information-text {
+  margin-top: 20px;
+  font-size: 10px;
+  background-color: #f7e7ca;
+}
+
+#information-text p {
+  margin-bottom: 9px;
+}
+
+#information-text strong {
+  font-weight: bold;
+}
+p {
+  color: black;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+li {
+  list-style: none;
+  font-size: 50px;
+  margin: 40px;
+}
+
+.primary-link,
+.secondary-link,
+.tertiary-link {
+  text-align: center;
+  color: #302a2a;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+.photo-background {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/807/original/pexels-christina-polupanova-10281101.jpg?1691682711");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.homepage-link {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #270a00;
+  font-size: 26px;
+}
+a {
+  color: #b35402;
+  text-align: center;
+}
+a:hover {
+  color: #b4a08a;
+}
+h2 {
+  color: white;
+  font-size: 90px;
+}
+
+.container {
+  background-color: #e0d2b7;
+}
+
+.contact-background {
+  background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+#contact-section {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/808/original/pexels-pixabay-2135.jpg?1691682722");
+  background-size: 550px;
+  background-repeat: no-repeat;
+}
+.info-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+.contact-info {
+  font-size: 50px;
+}
+.label-text {
+  color: #7003ff;
+  margin-left: 190px;
+  font-size: 60px;
+}
+.email-link {
+  color: #171e22;
+}
+.form-group label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.message-box {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact-title {
+  font-size: 50px;
+  color: #605b4f;
+}
+.home-link {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #726c5c;
+  font-size: 16px;
+}
